@@ -8,12 +8,8 @@ const ObjectLostSchema = new Schema({
         name: String,
         level: Number,
         class: Number,
-        required: true
     },
-    obj: {
-        objName: String,
-        required: true,
-    },
+    obj: String,
     placeOfLost: {
         place: String,
     },
