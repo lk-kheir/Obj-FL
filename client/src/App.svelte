@@ -25,5 +25,8 @@
 </main>
 
 <style>
-
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
 </style>
